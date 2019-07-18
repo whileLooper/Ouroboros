@@ -10,6 +10,7 @@ const FeaturesPage = (props) => {
             <h2 className="h1-responsive font-weight-bold my-5">
              Mild Souls Studio
             </h2>
+            <hr className="hr-grey my-4 w-75" />
             <p className="lead grey-text w-responsive mx-auto mb-5">
                 <small>一家网站设计制作，会计税务一体化的工作室</small>
             </p>
@@ -32,7 +33,7 @@ const FeaturesPage = (props) => {
                     <img src={messageImg} className="img-fluid" alt="" />
                     <h5 className="font-weight-bold my-4">微信客服支持</h5>
                     <p className="grey-text mb-md-0 mb-5">
-                        Mild Souls Studio 通过官方微信公众号，对网站进行后期维护，定时推送专业的商业知识与数据分析，实时在线客服
+                        Mild Souls Studio 通过官方微信公众号，给您提供实时在线客服，免费咨询，定时推送专业的商业知识与数据分析
                     </p>
                 </MDBCol>
             </MDBRow>

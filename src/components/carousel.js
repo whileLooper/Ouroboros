@@ -9,7 +9,7 @@ import webDesignImg2 from '../images/design_background.jpg';
 
 const CarouselPage = () => {
     return (
-        <MDBCarousel activeItem={1} length={4} className="z-depth-1 w-100">
+        <MDBCarousel showControls={false} activeItem={1} length={4} className="z-depth-1 w-100">
             <MDBCarouselInner>
                 <MDBCarouselItem itemId="1">
                     <MDBView>

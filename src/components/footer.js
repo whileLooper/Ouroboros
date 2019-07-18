@@ -3,7 +3,7 @@ import { MDBCol, MDBContainer, MDBRow, MDBFooter, MDBBtn, MDBIcon } from "mdbrea
 
 const Footer = () => {
     return (
-        <MDBFooter className="font-small pt-0" color="rgba-blue-slight">
+        <MDBFooter className="font-small pt-0" color="black">
             {/* <MDBContainer>
                 <MDBRow className="pt-5 mb-3 text-center d-flex justify-content-center">
                     <MDBCol md="2" className="b-3">
