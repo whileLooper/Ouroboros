@@ -4,7 +4,7 @@ import qrcode from '../images/qrcode.jpg';
 
 const Intro = ({ children }) => {
     return (
-        <MDBContainer style={{marginTop: "25vh", marginBottom: "50vh"}}>
+        <MDBContainer style={{marginTop: "25vh", marginBottom: "25vh"}}>
             <MDBRow >
                 <MDBCol md="12" className="white-text text-center">
                     <h2 className="h1-responsive font-weight-bold white-text mb-0 pt-md-5 pt-5">Mild Souls Studio</h2>

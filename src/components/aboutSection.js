@@ -8,7 +8,7 @@ const FeaturesPage = (props) => {
     return (
         <MDBContainer tag="section"  className="text-center">
             <h2 className="h1-responsive font-weight-bold my-5">
-             Mild Souls Studio
+             服务内容
             </h2>
             <hr className="hr-grey my-4 w-75" />
             <p className="lead grey-text w-responsive mx-auto mb-5">
