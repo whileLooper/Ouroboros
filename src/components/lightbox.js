@@ -1,7 +1,5 @@
 import React from 'react'
 import { MDBContainer, MDBRow, MDBCol, MDBView } from 'mdbreact'
-import Lightbox from 'react-image-lightbox'
-// import './lightbox.css'
 
 const images = [
   'https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(63).jpg',
