@@ -5,8 +5,8 @@ import SEO from '../components/seo'
 import Carousel from '../components/carousel'
 import AboutSection from '../components/aboutSection'
 import LightBox from '../components/lightbox'
-import Card from '../components/card'
-import { MDBRow } from 'mdbreact'
+import WebPage from '../components/webSection'
+import TaxPage from '../components/taxSection'
 
 class App extends Component {
   render() {
@@ -26,7 +26,9 @@ class App extends Component {
           <Intro />
           <main>
             <AboutSection />
-            <LightBox />
+            <WebPage />
+            {/* <TaxPage /> */}
+            {/* <LightBox /> */}
           </main>
         </Layout>
       </>

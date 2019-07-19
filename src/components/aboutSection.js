@@ -7,17 +7,17 @@ import messageImg from '../images/undraw_manage_chats.svg';
 const FeaturesPage = (props) => {
     return (
         <MDBContainer tag="section"  className="text-center">
-            <h2 className="h1-responsive font-weight-bold my-5">
+            <hr className="hr-grey my-4 w-75" />
+            <h2 className="h1-responsive font-weight-bold my-5" color="success-color">
              服务内容
             </h2>
-            <hr className="hr-grey my-4 w-75" />
             <p className="lead grey-text w-responsive mx-auto mb-5">
-                <small>一家网站设计制作，会计税务一体化的工作室</small>
+                <small>一家网站设计制作，会计税务一体化的工作室，为您的企业省去更多烦恼</small>
             </p>
             <MDBRow>
                 <MDBCol className="mb-5" md="4">
                     <img src={webDevelopImg} className="img-fluid" alt="" />
-                    <h5 className="font-weight-bold my-4">网站设计&开发</h5>
+                    <h5 className="font-weight-bold my-4">网站设计和开发</h5>
                     <p className="grey-text mb-md-0 mb-5">
                         基于不同客户，设计开发高度契合的网站，一次设计开发，多平台支，同时完美呈现在电脑，笔记本，手机，平板
                     </p>

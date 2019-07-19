@@ -29,8 +29,8 @@ const renderImages = () => {
 
 const LightBox = () => (
   <MDBContainer tag="section" className="text-center" background-color="stylish-color">
-    <h2 className="font-weight-bold my-5 text-center">产品展示</h2>
     <hr className="hr-grey my-4 w-75" />
+    <h2 className="font-weight-bold my-5 text-center">产品展示</h2>
     <div className="mdb-lightbox">
       <MDBRow>{renderImages()}</MDBRow>
     </div>
