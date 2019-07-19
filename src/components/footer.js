@@ -58,8 +58,7 @@ const Footer = () => {
             </MDBContainer> */}
             <div className="footer-copyright text-center py-3">
                 <MDBContainer fluid>
-                    &copy; {new Date().getFullYear()} Copyright
-                <a href="https://www.MDBootstrap.com" alt=""> Mild Souls Studio </a>
+                    Made with <i class="text-danger far fa-heart animated heartBeat infinite" /> and crafted with &copy; <a href="https://mildsouls.com" alt=""> Mild Souls Studio </a>
                 </MDBContainer>
             </div>
         </MDBFooter>
