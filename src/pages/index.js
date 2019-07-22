@@ -27,7 +27,7 @@ class App extends Component {
           <main>
             <AboutSection />
             <WebPage />
-            {/* <TaxPage /> */}
+            <TaxPage />
             {/* <LightBox /> */}
           </main>
         </Layout>

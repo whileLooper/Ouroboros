@@ -16,7 +16,7 @@ import {
 } from 'mdbreact'
 import { Link } from 'gatsby'
 import CustomNavLink from './customLink'
-import { ReactComponent as Logo } from '../images/logo.svg'
+import smallLogo from '../images/small_logo.png'
 
 class NavbarPage extends Component {
   state = {
@@ -31,7 +31,7 @@ class NavbarPage extends Component {
     return (
       <MDBNavbar className="d-none d-md-block" color="transparent" expand="md">
         <MDBContainer>
-          {/* <Logo  /> */}
+          <img style={{width: '50px'}}src={smallLogo} alt="Gallery" className="img-fluid" />
           <Link to="/" className="navbar-brand">
             {/* <strong className="ml-3 white-text">Mild Souls</strong> */}
           </Link>
